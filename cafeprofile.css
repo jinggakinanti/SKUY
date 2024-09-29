@@ -1,0 +1,158 @@
+body {
+    background-color: moccasin;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+    background-color:  rgb(167, 130, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(167, 130, 0);
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;border: none;
+    transition: .2s linear;
+    overflow: hidden;
+}
+
+.container {
+    display: inline-block;
+    background-color:  rgb(167, 130, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+}
+
+.prof{
+    background-color:  rgb(167, 130, 0);
+}
+
+.prof img{
+    border-radius: 100%;
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container i {
+    cursor: pointer;
+    background-color:  rgb(167, 130, 0);
+    color: rgb(246, 255, 203);
+}
+  
+.container a {
+    cursor: pointer;
+    background-color:  rgb(167, 130, 0);
+    color: rgb(246, 255, 203);
+}
+
+form{
+    background-color: rgb(167, 130, 0) ;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+
+form i{
+    background-color: rgb(167, 130, 0) ;
+    color: rgb(246, 255, 203);
+    padding-right: 10px;
+}
+
+hr{
+    height: 3px;
+    margin-top: 5px;
+    border-color: rgb(246, 255, 203);
+}
+
+form input{
+    background-color: rgb(167, 130, 0) ;
+}
+
+.search input{
+    color: rgb(255, 255, 255);
+}
+
+::placeholder{
+    color: rgb(246, 255, 203);
+}
+
+
+.upper-half {
+            height: 65vh;
+            align-items:center;
+            background-color: rgb(221, 208, 181);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:black;
+        }
+
+.box_image {
+            height: 500px;
+            width: 34%;
+            padding-left: 40px;
+            background-color: transparent;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+.image {
+            height: 95%;
+            width: 95%;
+        }
+
+.section-content {
+            margin-left: 20px;
+            width: 60%;
+        }
+
+.section-content-title {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+.section-content-para {
+            font-size: 18px;
+        }
+
+.lower-half {
+            background-color: moccasin;
+            padding: 20px;
+            color: black;
+        }
+
+.comment-form label,
+.comment-form textarea,
+.comment-form input[type="submit"] {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+.comment-form textarea {
+            width: 100%;
+            height: 100px;
+        }
+
+.comment-form input[type="submit"] {
+            padding: 5px 10px;
+            background-color: #333;
+            color: darkgoldenrod;
+            border: none;
+            cursor: pointer;
+        }

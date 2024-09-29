@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(255, 255, 181);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;border: none;
+    transition: .2s linear;
+}
+
+body{
+    text-align: center;
+}
+
+body img{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    margin-left: 105px;
+}
+
+body h1{
+    color:rgb(147, 104, 5);
+    font-size: 51px;
+    margin-bottom: 50px;
+}
+
+button{
+    background-color:#C6A939;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 34px;
+    width:500px;
+    height: 70px;
+    color: rgb(255, 255, 181);;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8e7821;
+    color:#dbc879
+}

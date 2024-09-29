@@ -1,0 +1,169 @@
+*{
+    background-color: rgb(255, 255, 181);
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(167, 130, 0);
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;border: none;
+    transition: .2s linear;
+    overflow: hidden;
+}
+
+.container {
+    display: inline-block;
+    background-color:  rgb(167, 130, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+}
+
+.prof{
+    background-color:  rgb(167, 130, 0);
+}
+
+.prof img{
+    border-radius: 100%;
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container i {
+    cursor: pointer;
+    background-color:  rgb(167, 130, 0);
+    color: rgb(246, 255, 203);
+}
+  
+.container a {
+    cursor: pointer;
+    background-color:  rgb(167, 130, 0);
+    color: rgb(246, 255, 203);
+}
+
+form{
+    background-color: rgb(167, 130, 0) ;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+
+form i{
+    background-color: rgb(167, 130, 0) ;
+    color: rgb(246, 255, 203);
+    padding-right: 10px;
+}
+
+hr{
+    height: 3px;
+    margin-top: 5px;
+    border-color: rgb(246, 255, 203);
+}
+
+form input{
+    background-color: rgb(167, 130, 0) ;
+}
+
+.search input{
+    color: rgb(255, 255, 255);
+}
+
+::placeholder{
+    color: rgb(246, 255, 203);
+}
+
+.search i{
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 90px;
+}
+
+.profile img{
+    border-radius: 50%;
+    height: 200px;
+    width: 250px;
+    border: rgb(140, 90, 20) solid 5px;
+    cursor: pointer;
+}
+
+.data{
+    border: rgb(140, 90, 20) solid 10px;
+    padding: 20px;
+    background: #DAD799;
+    color:  #775E04;
+}
+
+.data h2{
+    background: #DAD799;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.data h2 span{
+    background: #DAD799;
+    padding-left: 10px;
+}
+
+.data h3{
+    background: #DAD799;
+    color: rgb(57, 36, 15);
+}
+
+.data h3 span{
+    border-radius: 100%;
+    margin-left: 2px;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: #775E04;
+}
+
+.data h3 span:hover{
+    background-color: rgb(185, 170, 106);
+    border-radius: 100%;
+    margin-left: 2px;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px ;
+    margin-left: 150px;
+    color: #775E04;
+    margin-right: 150px;
+    font-size: 26px;
+    height:280px;
+    margin-bottom: 40px;
+    border: rgb(140, 90, 20) solid 10px;
+    background: #DAD799;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.edit{
+    background-color: #DAD799;
+    display: flex;
+    position: relative;
+    margin-left: 95%;
+    font-size: 24px;
+    cursor: pointer;
+}

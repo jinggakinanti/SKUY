@@ -1,0 +1,643 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(167, 130, 0);
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;border: none;
+    transition: .2s linear;
+    overflow: hidden;
+}
+
+.container {
+    display: inline-block;
+    background-color:  rgb(167, 130, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+}
+
+.prof{
+    background-color:  rgb(167, 130, 0);
+}
+
+.prof img{
+    border-radius: 100%;
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container i {
+    cursor: pointer;
+    background-color:  rgb(167, 130, 0);
+    color: rgb(246, 255, 203);
+}
+  
+.container a {
+    cursor: pointer;
+    background-color:  rgb(167, 130, 0);
+    color: rgb(246, 255, 203);
+}
+
+form{
+    background-color: rgb(167, 130, 0) ;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+
+form i{
+    background-color: rgb(167, 130, 0) ;
+    color: rgb(246, 255, 203);
+    padding-right: 10px;
+}
+
+hr{
+    height: 3px;
+    margin-top: 5px;
+    border-color: rgb(246, 255, 203);
+}
+
+form input{
+    background-color: rgb(167, 130, 0) ;
+}
+
+.search input{
+    color: rgb(255, 255, 255);
+}
+
+::placeholder{
+    color: rgb(246, 255, 203);
+}
+
+.search i{
+    cursor: pointer;
+}
+
+.rekom{
+    position: relative;
+    width: 100px;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #000000;
+    text-align: center;
+    border-radius: 20px;
+    top: 30px;
+    left: 128px;
+}
+
+.rekom .isi{
+    position: relative;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ffff;
+    top: -19px;
+    left: -7px;
+}
+
+.cafelist{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cafe1{
+    position: relative;
+    width: 511.58px;
+    height: 249.71px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #74601a;
+    text-align: center;
+    top: 30px;
+    left: -300px;
+
+}
+.cafe1 img{
+    position: relative;
+    width: 256px;
+    height: 201px;
+    object-fit:contain;
+    top: 20px;
+    left: -120px;
+}
+
+.cafe1 h3{
+    position: relative;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffff;
+    top: -200px;
+    left: 130px;
+}
+
+.cafe1 h4{
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffff;
+    top: -215px;
+    left: 130px;
+}
+
+.cafe1 h6{
+    position: absolute;
+    font-size: 12.5px;
+    padding-top: 20px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.cafe1 .details1 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -220px;
+    left: 300px;
+    text-align: center;
+}
+
+.cafe1 .details2 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -235px;
+    left: 300px;
+}
+
+.cafe1 .details3 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -382px;
+    left: 400px;
+}
+
+.cafe1 .details4 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -400px;
+    left: 400px;
+}
+
+.cafe2{
+    position: relative;
+    width: 511.58px;
+    height: 249.71px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #74601a;
+    text-align: center;
+    top: -280px;
+    left: 300px;
+
+}
+.cafe2 img{
+    position: relative;
+    width: 256px;
+    height: 201px;
+    object-fit:contain;
+    top: 20px;
+    left: -120px;
+}
+
+.cafe2 h3{
+    position: relative;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffff;
+    top: -200px;
+    left: 130px;
+}
+
+.cafe2 h4{
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffff;
+    top: -215px;
+    left: 130px;
+}
+
+.cafe2 h6{
+    position: absolute;
+    font-size: 12.5px;
+    padding-top: 20px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.cafe2 .details1 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -218px;
+    left: 300px;
+    text-align: center;
+}
+
+.cafe2 .details2 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -234px;
+    left: 300px;
+}
+
+.cafe2 .details3 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -382px;
+    left: 400px;
+}
+
+.cafe2 .details4 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -400px;
+    left: 400px;
+}
+
+.cafe3{
+    position: relative;
+    width: 511.58px;
+    height: 249.71px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #74601a;
+    text-align: center;
+    top: -250px;
+    left: 300px;
+}
+
+.cafe3 img{
+    position: relative;
+    width: 256px;
+    height: 201px;
+    object-fit:contain;
+    top: 20px;
+    left: -120px;
+}
+
+.cafe3 h3{
+    position: relative;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffff;
+    top: -200px;
+    left: 130px;
+}
+
+.cafe3 h4{
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffff;
+    top: -220px;
+    left: 130px;
+}
+
+.cafe3 h6{
+    position: absolute;
+    font-size: 12.5px;
+    padding-top: 20px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.cafe3 .details1 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -230px;
+    left: 300px;
+}
+
+.cafe3 .details2 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -240px;
+    left: 300px;
+}
+
+.cafe3 .details3 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -390px;
+    left: 400px;
+}
+
+.cafe3 .details4 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -405px;
+    left: 400px;
+}
+
+.cafe4{
+    position: relative;
+    width: 511.58px;
+    height: 249.71px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #74601a;
+    text-align: center;
+    top: -560px;
+    left: -300px;
+}
+
+.cafe4 img{
+    position: relative;
+    width: 256px;
+    height: 201px;
+    object-fit:contain;
+    top: 20px;
+    left: -120px;
+}
+
+.cafe4 h3{
+    position: relative;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffff;
+    top: -200px;
+    left: 130px;
+}
+
+.cafe4 h4{
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffff;
+    top: -220px;
+    left: 130px;
+}
+
+.cafe4 h6{
+    position: absolute;
+    font-size: 12.5px;
+    padding-top: 20px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.cafe4 .details1 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -230px;
+    left: 300px;
+}
+
+.cafe4 .details2 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -240px;
+    left: 300px;
+}
+
+.cafe4 .details3 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -390px;
+    left: 400px;
+}
+
+.cafe4 .details4 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -405px;
+    left: 400px;
+}
+
+.cafe5{
+    position: relative;
+    width: 511.58px;
+    height: 249.71px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #74601a;
+    text-align: center;
+    top: -530px;
+    left: -300px;
+}
+
+.cafe5 img{
+    position: relative;
+    width: 256px;
+    height: 201px;
+    object-fit:contain;
+    top: 20px;
+    left: -120px;
+}
+
+.cafe5 h3{
+    position: relative;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffff;
+    top: -200px;
+    left: 130px;
+}
+
+.cafe5 h4{
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffff;
+    top: -220px;
+    left: 130px;
+}
+
+.cafe5 h6{
+    position: absolute;
+    font-size: 12.5px;
+    padding-top: 20px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.cafe5 .details1 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -230px;
+    left: 300px;
+}
+
+.cafe5 .details2 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -240px;
+    left: 300px;
+}
+
+.cafe5 .details3 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -390px;
+    left: 400px;
+}
+
+.cafe5 .details4 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -405px;
+    left: 400px;
+}
+
+.cafe6{
+    position: relative;
+    width: 511.58px;
+    height: 249.71px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #74601a;
+    text-align: center;
+    top: -840px;
+    left: 300px;
+}
+
+.cafe6 img{
+    position: relative;
+    width: 256px;
+    height: 201px;
+    object-fit:contain;
+    top: 20px;
+    left: -120px;
+}
+
+.cafe6 h3{
+    position: relative;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffff;
+    top: -200px;
+    left: 130px;
+}
+
+.cafe6 h4{
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffff;
+    top: -220px;
+    left: 130px;
+}
+
+.cafe6 h6{
+    position: absolute;
+    font-size: 12.5px;
+    padding-top: 20px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.cafe6 .details1 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -230px;
+    left: 300px;
+}
+
+.cafe6 .details2 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -240px;
+    left: 300px;
+}
+
+.cafe6 .details3 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -390px;
+    left: 400px;
+}
+
+.cafe6 .details4 h6{
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background-color: #c6a939;
+    border-radius: 30px; 
+    top: -405px;
+    left: 400px;
+}
